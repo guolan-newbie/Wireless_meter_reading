@@ -1,0 +1,37 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Wendu - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP2BA4.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/Wendu.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\x-近期做的实践项目\Wendu\WenduDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP2BA4.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Wendu.pdb" /debug /machine:I386 /out:"Debug/Wendu.exe" /pdbtype:sept  ".\Debug\StdAfx.obj" ".\Debug\Wendu.obj" ".\Debug\WenduDlg.obj" ".\Debug\Wendu.res" "
+<h3>Output Window</h3>
+Compiling...
+WenduDlg.cpp
+E:\x-近期做的实践项目\Wendu\WenduDlg.cpp(460) : warning C4244: '=' : conversion from 'long' to 'char', possible loss of data
+E:\x-近期做的实践项目\Wendu\WenduDlg.cpp(461) : warning C4244: '=' : conversion from 'long' to 'char', possible loss of data
+E:\x-近期做的实践项目\Wendu\WenduDlg.cpp(462) : warning C4244: '=' : conversion from 'long' to 'char', possible loss of data
+E:\x-近期做的实践项目\Wendu\WenduDlg.cpp(463) : warning C4244: '=' : conversion from 'long' to 'char', possible loss of data
+E:\x-近期做的实践项目\Wendu\WenduDlg.cpp(469) : warning C4305: '=' : truncation from 'const int' to 'char'
+E:\x-近期做的实践项目\Wendu\WenduDlg.cpp(469) : warning C4309: '=' : truncation of constant value
+E:\x-近期做的实践项目\Wendu\WenduDlg.cpp(472) : warning C4244: '=' : conversion from 'long' to 'char', possible loss of data
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/Wendu.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\Wendu.sbr" ".\Debug\WenduDlg.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Wendu.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
